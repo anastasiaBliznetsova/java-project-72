@@ -10,6 +10,9 @@ test:
 report:
 	make -C app report
 
+clean:
+	make -C app clean
+
 lint:
 	make -C app lint
 
